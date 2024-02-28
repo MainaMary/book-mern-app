@@ -1,9 +1,5 @@
 # Frontend
 
-## Description
-
-Brief description of your project.
-
 ## Technologies Used
 
 - React
@@ -49,3 +45,14 @@ Follow these steps to get a local copy of the project up and running on your mac
    ```
 
    Open your browser and navigate to http://localhost:3000 to view the app
+
+# Backend
+
+## Technologies Used
+
+- NodejS
+- Express
+- MongoDB
+- Npm
+
+## Getting Started
