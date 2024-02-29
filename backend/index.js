@@ -1,6 +1,7 @@
 import express from 'express'
 import mongoose from 'mongoose'
 import * as dotenv from "dotenv";
+import morgan from 'morgan';
 import bookRouter from './routes/bookRouter.js';
 import cors from 'cors'
 
@@ -8,6 +9,9 @@ const app = express()
 dotenv.config();
 const port = process.env.PORT || 8000;
 
+if (process.env.NODE_ENV === "development") {
+  app.use(morgan("dev"));
+}
 //Body parser middleware
 app.use(express.json())
 
