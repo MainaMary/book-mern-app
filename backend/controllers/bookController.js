@@ -17,10 +17,10 @@ const createBook = async (req, res) => {
       res.status(400).send({
         message: "Please provide all the required values. Author, title, Year",
       });
-      const book = await BookModel.create(req.body);
+      return
+      }
+    const book = await BookModel.create(req.body);
       return  res.status(201).json(book);
-     
-    }
   } catch (error) {
     res.status(500).send({
       message: error.message,

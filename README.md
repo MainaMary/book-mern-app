@@ -40,11 +40,11 @@ Follow these steps to get a local copy of the project up and running on your mac
 4. Run the application
 
    ```bash
-   yarn dev
+   yarn run dev
 
    ```
 
-   Open your browser and navigate to http://localhost:3000 to view the app
+   Open your browser and navigate to http://localhost:5173/ to view the app
 
 # Backend
 
